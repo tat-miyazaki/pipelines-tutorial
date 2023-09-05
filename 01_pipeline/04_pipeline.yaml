@@ -5,6 +5,7 @@ metadata:
 spec:
   workspaces:
   - name: shared-workspace
+  serviceAccountName: pipeline
   params:
   - name: deployment-name
     type: string
